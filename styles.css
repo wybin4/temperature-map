@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html{
+  font-family: "Roboto";
+}
+.tooltip {
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  width: auto;
+  height: auto;
+  pointer-events: none;
+  background-color: black;
+  opacity: 0.7;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+#main-text{
+  position: absolute;
+  left: 600px;
+  font-size: 20px;
+}
+#after-main{
+  position: absolute;
+  left: 750px;
+  top: 43px;
+  font-size: 14px;
+}
+#months-text{
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  position: absolute;
+  top: 320px;
+  left: 30px;
+  font-size: 15px;
+}
+#years-text{
+  position: absolute;
+  top: 560px;
+  left: 730px;
+  font-size: 15px;
+}
+@media (max-width: 1200px) { 
+  #main-text, #after-main{
+    opacity: 0;
+  }
+}
