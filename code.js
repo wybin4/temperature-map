@@ -94,7 +94,7 @@ const yAxis = d3
 svg.append("g").call(yAxis);
 
 $.getJSON(
-  "https://raw.githubusercontent.com/ajdivotf/temperature-map/main/files/data.json",
+  "https://raw.githubusercontent.com/wybin4/temperature-map/main/files/data.json",
   function (data) {
     // create a tooltip
     const tooltip = d3
